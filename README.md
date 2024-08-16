@@ -3,7 +3,8 @@ Basic quiz, made using HTML, JavaScript and CSS.<br>
 The quiz has three questions with three answers each "select".<br><br>
 Made to apply in programming classes.<br><br>
 
-![Atividade Final - Print](https://github.com/Pixelikas/The-Coolest-Quiz/assets/67108278/86332448-47e7-4bb8-a778-b3132196416a)
+![Atividade Final - Print](![image](https://github.com/user-attachments/assets/583d37e9-4894-43f1-b2fd-db2d156a32f2)
+)
 
 
 

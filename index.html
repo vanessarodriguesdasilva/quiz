@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>The Coolest Quizzz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- DIV Container - Para englobar as outras divs, tamanho total da página -->
+    <div id="container">
+
+        <!-- DIV Topo - Para o título e imagens -->
+        <div id="topoTitulo">
+
+            <img id="imgTopo" src="header.png">
+
+        </div>
+
+
+        <!-- DIV Perguntas - Para os cards de perguntas -->
+        <div id="meioPerguntas">
+
+            <div id="gapEsquerda"></div>
+
+            <div class="cardsPerguntas">
+
+                <span class="spnLabel"><label class="lblTituloPergunta">Pergunta 1</label></span>
+                <label class="lblTextoPergunta">Quantos integrantes a banda Mamonas Assasinas tem?</label>
+
+            </div>
+
+            <div id="gapMeioUm"></div>
+
+            <div class="cardsPerguntas">
+
+                <span class="spnLabel"><label class="lblTituloPergunta">Pergunta 2</label></span>
+                <label class="lblTextoPergunta">Qual foi o primeiro nome da banda Mamonas?</label>
+
+            </div>
+
+            <div id="gapMeioDois"></div>
+
+            <div class="cardsPerguntas">
+
+                <span class="spnLabel"><label class="lblTituloPergunta">Pergunta 3</label></span>
+                <label class="lblTextoPergunta">Quem era o baixista da banda Mamonas Assasinas?</label>
+
+            </div>
+
+            <div id="gapDireita"></div>
+
+        </div>
+
+
+        <!-- DIV Labels - Para as labels informativas de escolha -->
+        <div id="meioLabels">
+
+            <label>Escolha sua resposta</label>
+            <label>Escolha sua resposta</label>
+            <label>Escolha sua resposta</label>
+
+        </div>
+
+
+        <!-- DIV Selects - Para os menus de select com as respostas -->
+        <div id="meioSelects">
+
+            <select id="selectPerguntaUm" class="selectsRespostas">
+
+                <option value="2">Resposta</option>
+                <option value="0">6</option>
+                <option value="0">7</option>
+                <option value="1">5</option>
+
+            </select>
+
+            <select id="selectPerguntaDois" class="selectsRespostas">
+
+                <option value="2">Resposta</option>
+                <option value="0">Beco das garrafas</option>
+                <option value="0">Estrelas do Rock</option>
+                <option value="1">Utopia</option>
+
+            </select>
+
+            <select id="selectPerguntaTres" class="selectsRespostas">
+
+                <option value="2">Resposta</option>
+                <option value="0">Bento Hinoto</option>
+                <option value="1">Samuel Reoli</option>
+                <option value="0">Júlio Rasec</option>
+
+            </select>
+
+        </div>
+
+
+        <!-- DIV Resultado - Para a pontuação, resultado e botão de gerar pontos -->
+        <div id="baixoResultado">
+
+            <img src="icone-esquerda.png" class="iconesBaixo">
+            <label id="lblPontos">Sua Pontuação</label>
+            <input id="inptPontos" readonly>
+            <button id="btnFinaliza" onclick="FinalizaQuiz()">Finalizar Quiz</button>
+            <img src="icone-direita.png" class="iconesBaixo">
+
+        </div>
+
+    </div>
+
+    <script src="lógica-quiz.js"></script>
+
+</body>
+</html>
